@@ -31,7 +31,7 @@ CREATE TABLE `activo` (
   `id` int(4) NOT NULL,
   `detalle` varchar(40) NOT NULL,
   `valor` double NOT NULL,
-  `fecha` date NOT NULL DEFAULT current_timestamp(),
+  `fecha` date  DEFAULT current_timestamp(),
   `estado` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
